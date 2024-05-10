@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Digital Trend HTML Template</title>
+<!--
+
+DIGITAL TREND
+
+https://templatemo.com/tm-538-digital-trend
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-digital-trend.css">
+
+     <style> /* Style untuk daftar mata kuliah */
+          #courseList {
+               justify-content: center;
+               text-align: center;
+              list-style: none;
+              padding: 0;
+          }
+          
+          #courseList li {
+              margin-bottom: 10px;
+              padding: 10px;
+              background-color: #f0f0f0;
+              border-radius: 5px;
+          }
+          
+          #courseList li span {
+              font-weight: bold;
+          }
+          
+          /* Style untuk form tambah mata kuliah */
+          #courseForm {
+              margin-bottom: 20px;
+          }
+          
+          #courseForm input[type="text"] {
+              width: 200px;
+              padding: 5px;
+              margin-right: 10px;
+          }
+          
+          #courseForm button {
+              padding: 5px 10px;
+              background-color: #007bff;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+          
+          #courseForm button:hover {
+              background-color: #0056b3;
+          }
+          
+          /* Style untuk tombol Edit dan Delete */
+          #courseList li button {
+              margin-left: 10px;
+              padding: 3px 8px;
+              background-color: #dc3545;
+              color: #fff;
+              border: none;
+              border-radius: 3px;
+              cursor: pointer;
+          }
+          
+          #courseList li button.edit {
+              background-color: #ffc107;
+              margin-right: 5px;
+          }
+          
+          #courseList li button:hover {
+              opacity: 0.8;
+          }
+          </style>
+
+</head>
+<body>
+
+     <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <i class="fa fa-line-chart"></i>
+              Aropi
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Matakuliah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link contact">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+     <!-- HERO -->
+     <section class="hero hero-bg d-flex justify-content-center align-items-center">
+               <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
+                              <div class="hero-text">
+
+                                   <h1 class="text-white" data-aos="fade-up">I'm Aropi Rizkola <br> Nim : 211011401364 <br>
+                                        Kelas : 06TPLM007</h1>
+
+                                   <a href="contact.html" class="custom-btn btn-bg btn mt-3" data-aos="fade-up" data-aos-delay="100">Let us discuss together!</a>
+                              </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                          <div class="hero-image" data-aos="fade-up" data-aos-delay="300">
+
+                            <img src="images/working-girl.png" class="img-fluid" alt="working girl">
+                          </div>
+                        </div>
+
+                    </div>
+               </div>
+     </section>
+
+     <!-- Di dalam bagian body landing page Anda -->
+
+<div class="container">
+     <h2>Daftar Mata Kuliah Favorit</h2>
+     <form id="courseForm">
+         <input type="text" id="courseName" placeholder="Nama Mata Kuliah">
+         <input type="text" id="courseNIM" placeholder="NIM">
+         <button type="submit">Tambah Mata Kuliah</button>
+     </form>
+     <ul id="courseList"></ul>
+ </div>
+ 
+
+
+     <!-- ABOUT -->
+ 
+
+     <!-- PROJECT -->
+
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/aos.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+     <script src="js/main.js"></script>
+
+</body>
+</html>
